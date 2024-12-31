@@ -1,0 +1,29 @@
+div{
+    right: 30px;
+    border: 3px solid blue;
+}
+div.Sticky{
+    position: sticky;
+    top:1px;
+    left:20px;
+    border: 3px solid blue;
+    
+}
+
+div.Absolute{
+position: absolute;
+background-color: aqua;
+}
+
+div.Relative{
+    position: relative;
+    left: 12px;
+    background-color: lightseagreen;
+}
+div.Fixed{
+    position: fixed;
+    background-color: lightcoral;
+    top: 500px;
+    background: linear-gradient(to left, Blue, Red, Yellow,Green,Cyan,White,BlueViolet);
+}
+
